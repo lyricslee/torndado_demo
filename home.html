@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        @import "homestyle.css";
+    </style>
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="js/ChatSystem.js"></script>
+</head>
+<body>
+
+<div class="big_world">
+    <div class="books_con">
+        <div class="daily_con">
+            <div class="textlabel_con" style="width: 20px"> Reading: </div>
+            <div class="displayprocess_con" id="currentBook"></div>
+        </div>
+        <div class="daily_con">
+            <div class="textlabel_con"> book list: </div>
+             <select class="selectbook_con" id="booklist"></select>
+        </div>
+        <div class="daily_con">
+            <div class="textlabel_con"> task process: </div>
+            <div class="displayprocess_con" id="taskProcess"></div>
+        </div>
+        <div class="daily_con" style="height: 30px">
+            <div class="textlabel_con" style="width: 250px"> choose daily tasks: </div>
+        </div>
+        <div class="daily_con">
+            <select class="selectbook_con" style="width: 60px; float: left; margin-left: 10px" id="booktasks">
+                <option value="1">1</option>
+                <option value="2" selected="selected">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <div class="textlabel_con"> chapter/day </div>
+            <input class="button_cn" type="button" value="confirm" id="changeDailyTask">
+        </div>
+        <div class="daily_con">
+            <div class="textlabel_con" style="width: 20px"> Record: </div>
+            <input class="button_cn" style="width: 180px; margin-left: 10px" type="button" value="I have read this chapter" id="finishRead">
+        </div>
+        <div class="daily_con">
+            <div class="textlabel_con"> next chapter: </div>
+            <input class="button_cn" type="button" value="next" id="nextChapter">
+        </div>
+    </div>
+    <div class="talk_con">
+        <div class="chapterid_con">
+            <div style="text-align: center; font-size: 16px; font-family: Georgia" id="chapterId"></div>
+        </div>
+        <div id="chapterContext" class="chapter_context_con"></div>
+    </div>
+    <div class="readfinish_con">
+        <div class="comment_con">
+            <div class="book_review"> Book Review </div>
+            <div class="comment_show" id="comments"></div>
+            <textarea class="comment_input" id="commentContext" style="vertical-align:top;outline:none;"></textarea>
+            <input type="button" style="width: 50px; margin-top: 130px" value="send" class="button_cn" id="commitComment">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

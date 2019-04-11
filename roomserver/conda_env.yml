@@ -1,0 +1,10 @@
+name: autohw
+channels:
+  - conda-forge
+dependencies:
+- python=2.7.15
+- tk=8.6.9
+- beautifulsoup4=4.7.1
+- requests=2.21.0
+- tornado=5.1.1
+- mysql-connector-python

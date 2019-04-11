@@ -1,0 +1,174 @@
+.big_world{
+    width:1200px;
+    height:800px;
+    border:0px solid #666;
+    margin:50px auto 0;
+    background:#f9f9f9;
+}
+
+
+.books_con {
+    width:300px;
+    height:790px;
+    border:1px solid #666;
+    margin:0;
+    padding: 0;
+    float: left;
+    background-color: #b2dba1;
+}
+
+.talk_con {
+    width:580px;
+    height:790px;
+    border:1px solid #666;
+    margin:0;
+    padding: 0;
+    float: left;
+    background-color: #b2dba1;
+}
+
+.chapterid_con {
+    width:580px;
+    height:30px;
+    border:1px solid #666;
+    margin:0;
+    padding: 0;
+    float: left;
+    background-color: #b2dba1;
+}
+
+.chapter_context_con {
+    width:580px;
+    height:755px;
+    padding:2px;
+    float: left;
+    overflow: auto;
+    background-color: #b2dba1;
+    font-family: "Courier New";
+    font-size: 18px;
+    text-indent: 2em;
+}
+.comment_con{
+    width:300px;
+    height:600px;
+    margin:0;
+    vertical-align:text-top;
+    padding: 0;
+    float: left;
+}
+.book_review{
+    width: 300px;
+    height: 20px;
+    font-size: 18px;
+    font-family: "Apple Braille";
+    text-align: center;
+    margin-top: 5px;
+
+}
+.comment_show{
+    width:300px;
+    height:580px;
+    border:1px solid #666;
+    margin:10px auto 0;
+    overflow:auto;
+    background-color: #d0e9c6;
+    border-radius:15px;
+    font-family: "Times New Roman";
+    font-style: italic;
+}
+.comment_input{
+    width:200px;
+    height:130px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+    font-size: 16px;
+    overflow:auto;
+}
+
+.comment_context_con{
+    margin:10px;
+    text-align:left;
+}
+.comment_context_con span{
+    display:inline-block;
+    background:#ef8201;
+    border-radius:10px;
+    color:#fff;
+    padding:5px 10px;
+}
+
+.readfinish_con {
+    width:300px;
+    height:790px;
+    border:1px solid #666;
+    margin:0;
+    vertical-align:text-top;
+    padding: 0;
+    float: left;
+    background-color: #b2dba1;
+}
+
+.daily_con{
+    width:300px;
+    height:70px;
+    margin-top:10px;
+    vertical-align:text-top;
+    padding: 5;
+    float: left;
+}
+
+.textlabel_con{
+    margin:0;
+    float: left;
+    width: 120px;
+    height: 30px;
+    display: block;
+    padding: 6px 6px;
+    font-size: 20px;
+}
+.selectbook_con{
+    margin-top: 5px;
+    margin-right: 10px;
+    width:150px;
+    height:25px;
+    float: right;
+    font-size: 16px;
+    padding: 6px 6px;
+    font-style: italic;
+    text-align: center;
+}
+
+.displayprocess_con{
+    margin-top: 0px;
+    margin-right: 10px;
+    float: right;
+    max-width: 400px;
+    min-width: 100px;
+    word-wrap: break-word;
+    height: 30px;
+    display: block;
+    padding: 6px 6px;
+    font-size: 20px;
+    font-style: italic;
+    border-radius:15px;
+    text-align: center;
+    background-color: #a7c89b;
+}
+
+.button_cn{
+    width: 70px;
+    height: auto;
+    display: block;
+    background-color: #4a77d4;
+    border: 1px solid #3762bc;
+    color: #fff;
+    padding: 3px 7px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+    margin: 0;
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+}

@@ -1,1 +1,1 @@
-- simple http server based on the [Tornado](https://www.tornadoweb.org) and 
+- simple http server based on the [Tornado Web Framework](https://www.tornadoweb.org)
